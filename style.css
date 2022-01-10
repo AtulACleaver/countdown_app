@@ -13,7 +13,7 @@ button {
     background: #111111;
     color: #fafafa;
     cursor: pointer;
-    margin: 5rem 2rem;
+    margin: 2rem;
     outline: none;
     transition: all 0.1s ease-in-out;
 }
