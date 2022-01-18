@@ -56,4 +56,5 @@ function resetTimer() {
   hr = 0;
   min = 0;
   sec = 0;
+  stopTimer();
 }
