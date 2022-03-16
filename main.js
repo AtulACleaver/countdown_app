@@ -58,3 +58,18 @@ function resetTimer() {
   sec = 0;
   stopTimer();
 }
+
+
+// Assgining shortcuts
+document.addEventListener("keydown", e=> {
+  if(e.key.toLowerCase() === "r") {
+    resetTimer();
+  }
+  if(e.keyCode == 32) {
+    if(stoptime == true){
+      startTimer();
+    }else{
+      stopTimer();
+    }
+  }
+})
